@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+    <meta charset="UTF-8">
+    <title>全选</title>
+    <script src="//cdn.bootcss.com/angular.js/1.3.18/angular.js"></script>
+    <script src="selectAll.js"></script>
+</head>
+<body>
+<div ng-controller="myController">
+    <label for="flag">全选
+        <input id="flag" type="checkbox" ng-model="select_all" ng-change="selectAll()">
+    </label>
+    <ul>
+        <li ng-repeat="i in list">
+            <input type="checkbox" ng-model="i.checked" ng-change="selectOne()">
+            <span>{{i.id}}</span>
+        </li>
+    </ul>
+</div>
+</body>
+</html>
