@@ -9,7 +9,6 @@ app.controller('myController', ['$scope', function ($scope) {
         {'id': 106},
         {'id': 107}
     ];
-    $scope.m = [];
     $scope.checked = [];
     $scope.selectAll = function () {
         if ($scope.select_all) {
