@@ -30,6 +30,7 @@ myApp.directive('ngCopyable', function($document) {
                     alert('浏览器不支持复制');
                 }
 
+                // test
             });
         }
 
