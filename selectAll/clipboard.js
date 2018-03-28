@@ -31,6 +31,7 @@ myApp.directive('ngCopyable', function($document) {
                 }
 
                 // test
+                // 测试分支
             });
         }
 
